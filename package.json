@@ -1,0 +1,33 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnigmaOsiris/login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnigmaOsiris/login/issues"
+  },
+  "homepage": "https://github.com/EnigmaOsiris/login#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
